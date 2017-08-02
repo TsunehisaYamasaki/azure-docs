@@ -259,7 +259,7 @@ Use the following table to find the IP addresses for the region you are using:
 
 For information on the IP addresses to use for Azure Government, see the [Azure Government Intelligence + Analytics](https://docs.microsoft.com/azure/azure-government/documentation-government-services-intelligenceandanalytics) document.
 
-__If your region is not listed in the table__, allow traffic to port __443__ on the following IP addresses:
+__Additionally You need to__, allow traffic to port __443__ on the following IP addresses:
 
 * 168.61.49.99
 * 23.99.5.239
