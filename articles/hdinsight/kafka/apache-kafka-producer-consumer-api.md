@@ -172,7 +172,6 @@ If you would like to skip this step, prebuilt jars can be downloaded from the `P
 
     ```bash
     java -jar kafka-producer-consumer.jar consumer myTest $KAFKABROKERS
-    scp ./target/kafka-producer-consumer*.jar sshuser@CLUSTERNAME-ssh.azurehdinsight.net:kafka-producer-consumer.jar
     ```
 
     The records read, along with a count of records, is displayed.
